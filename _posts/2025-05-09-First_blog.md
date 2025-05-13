@@ -13,12 +13,10 @@ Every AI project begins with a question: what problem are you trying to solve? W
 To validate your idea, the most effective approach is to <strong>leverage existing AI models via API connections</strong>. Using <strong>prompt engineering</strong>, you can build a prototype in <strong>about a week</strong>. This method allows for quick prototyping without significant resource investment.
 
   <h3>Why is it useful?</h3>
-    <ul>
-        <li><strong>Internal Validation</strong>: A POC convinces stakeholders and secures budget approval for the next steps.</li>
-        <li><strong>Business Testing</strong>: It confirms the solution meets end-user needs.</li>
-        <li><strong>Affordable Cost</strong>: Expect to spend around <strong>€100</strong>, primarily for API access.</li>
-    </ul>
-<strong>Recommendation</strong>: This approach is ideal for a POC but unsuitable for large-scale production.
+**<strong>Internal Validation</strong>**: A POC convinces stakeholders and secures budget approval for the next steps.
+**<strong>Business Testing</strong>**: It confirms the solution meets end-user needs.
+**<strong>Affordable Cost</strong>**: Expect to spend around <strong>€100</strong>, primarily for API access.
+**<strong>Recommendation</strong>**: This approach is ideal for a POC but unsuitable for large-scale production.
 
   <h2>Phase 2: Production – Scaling up</h2>
 Once the POC is validated, it’s time to deploy the solution in a real-world environment. This involves <strong>integrating the AI with internal data and existing tools</strong>. Two options are available: continue with an existing API (Option A) or develop a <strong>proprietary AI</strong> (Option B).
@@ -75,9 +73,7 @@ A proprietary AI positions your company as an innovative leader while ensuring s
         <li><strong>Graph</strong>: Essential for modeling interdependencies (e.g., client-supplier networks, logistics). Native graphs are far more powerful in proprietary AI.</li>
         <li><strong>Fine-tuning</strong>: Recommended in nearly all cases to optimize model performance for your use case.</li>
     </ul>
-    <div>
 <em>Note</em>: The choice between RAG and fine-tuning depends on your use case. A dedicated article will follow to clarify this further.
-    </div>
 
   <h2>Tips for a successful AI project</h2>
     <ol>
