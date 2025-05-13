@@ -1,0 +1,110 @@
+/* Style soft pour GitHub Pages */
+body {
+  background-color: #f8f1f9; /* Fond rose pâle */
+  color: #333; /* Texte gris foncé */
+  font-family: 'Poppins', sans-serif; /* Police douce et moderne */
+  line-height: 1.6; /* Espacement des lignes */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px; /* Largeur max pour lisibilité */
+  margin: 0 auto; /* Centrage */
+  background: #fff; /* Fond blanc pour le contenu */
+  padding: 30px;
+  border-radius: 15px; /* Coins arrondis */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  color: #5c4b7d; /* Violet doux */
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.2em;
+  border-bottom: 2px solid #e0d4e8; /* Ligne subtile */
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+/* Paragraphes */
+p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+/* Listes */
+ul, ol {
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Coins arrondis */
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Liens */
+a {
+  color: #7a6ad8; /* Violet clair */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #5c4b7d; /* Violet plus foncé au survol */
+}
+
+/* Code */
+pre, code {
+  background: #f1eff5; /* Fond gris clair */
+  border-radius: 8px;
+  padding: 10px;
+  font-family: 'Fira Code', monospace;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 15px;
+}
+
+/* Style pour les blocs de citation */
+blockquote {
+  border-left: 4px solid #e0d4e8; /* Bordure violet pâle */
+  padding-left: 15px;
+  margin: 20px 0;
+  color: #555;
+  font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
